@@ -1,0 +1,7 @@
+{
+  "name": "AI Graphic Designer Finder",
+  "description": "Find graphic designers in your country using AI and Google Search grounding, ensuring privacy by focusing on country-level results. Includes Google GPS integration for localized searches.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

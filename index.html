@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Graphic Designer Finder</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Ensure good font rendering across browsers -->
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
+    <div id="root" class="w-full max-w-4xl bg-gray-950 rounded-lg shadow-2xl p-6 md:p-8 lg:p-10 flex flex-col min-h-[600px]"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
